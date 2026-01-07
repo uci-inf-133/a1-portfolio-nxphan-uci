@@ -16,3 +16,16 @@ h1, fieldset {
     font-weight: bold;
 }
 */
+
+img
+{
+    width: 100px;
+    height: 300px;
+    border-radius: 50px;
+    float: left;
+}
+
+body
+{
+    background-color: aquamarine;
+}
