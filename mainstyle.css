@@ -17,12 +17,56 @@ h1, fieldset {
 }
 */
 
-img
+h1
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+h2
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+p
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.imgME
 {
     width: 100px;
     height: 300px;
-    border-radius: 50px;
+    border-radius: 10px;
     float: left;
+}
+
+.bg-continer
+{
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    max-width: 100px;
+}
+
+.responsive-image
+{
+    display: inline-block;
+    width: 100%; /*scales img w/ contained width*/
+    height: auto;
+}
+
+.text-overlay
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 
 body
@@ -36,3 +80,4 @@ body
     margin: 0;
     background-color: whitesmoke;
 }
+
