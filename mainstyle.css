@@ -27,5 +27,12 @@ img
 
 body
 {
-    background-color: aquamarine;
+    background-image: url('images/bgAsset.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    background-color: whitesmoke;
 }
