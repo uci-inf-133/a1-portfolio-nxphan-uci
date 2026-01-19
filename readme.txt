@@ -41,7 +41,11 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
-No, I did not get any known problems in my html file.
+I did not get any known problems in my html file, but I did get some potential warnings.
+Many of the warnings stem from my more descriptive alt attribute of my imgs, choice of color, and inclusion of images.
+The warnings suggest my alt text doesn't convey the same information as my images but I believe they provide more clarity and understanding.
+I'm further warned that "Alt text is not empty and image may be decorative", but in the case the images don't load properly users are able to see what I intentionally put at that spot.
+I purposefully used contrasting colors such as black and white to make focus and readability easier, so I'm unsure how my text/images may be "poor contrast".
 
 4. How long, in hours, did it take you to complete this assignment?
 About 10-12 hours.
@@ -66,5 +70,6 @@ I did not consult with any classmates or individuals when completing this assign
 
 
 7. Is there anything special we need to know in order to run your code?
-I did not flesh out a page for my specific projects so clicking the arrow to "view project" should simply take you to the home section.
+Make sure every image file is downloaded.
+I did not flesh out a page for my specific projects so clicking the arrow to "view project" or "See More Projects" should simply take you to the home section.
 The W3C validator link was kept on my page, and should appear on the very bottom right if needed for access.
