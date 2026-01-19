@@ -1,4 +1,4 @@
---Readme document for *YOUR NAME*, *YOUR_EMAIL@uci.edu*--
+--Readme document for Nina Phan, nxphan@uci.edu--
 
 A reminder on academic integrity, as described in the syllabus.
 
@@ -10,37 +10,41 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
-*/10
-- */1 Readme
-- */2 Basic HTML content
-- */1 Basic CSS styling
-- */1 Advanced feature
-- */2 Responsive layout
-- */1 Passes validation checks
-- */2 Embraces spirit of the assignment
+10/10
+- 1/1 Readme
+- 2/2 Basic HTML content
+- 1/1 Basic CSS styling
+- 1/1 Advanced feature
+- 2/2 Responsive layout
+- 1/1 Passes validation checks
+- 2/2 Embraces spirit of the assignment
+
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
 - At least one image, with descriptive alt attribute(s)
 - Appropriate headings and paragraph text
-- Multiple pages, with appropriate navigation between them
-- Semantic HTML tags like aside or footer
+- Links to external page(s)
+- Semantic HTML tags like footer
+- Custom Icons
+
 
 (b) CSS features
-- modifying padding and margins to indent content and enhance readability
-- Leveraging Bootstrap CSS helpers such as image shapes and table layouts to display content in a more interesting manner
+- Modifying padding and margins to indent content and enhance readability
+- Modifying link, text color, or other colors to be visually appealing
+- Leveraging Bootstrap CSS helpers (columns and rows)
+
 
 (c) Advanced features
-- Creating a more complex page layout, such as including a sidebar or navigation bar
+- Creating a more complex page layout: including a navigation bar that jumps to the desired section
 
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
-
-
+No, I did not get any known problems in my html file.
 
 4. How long, in hours, did it take you to complete this assignment?
-
+About 10-12 hours.
 
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
@@ -50,11 +54,16 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 - https://www.youtube.com/watch?v=lsP5agWYjCU
 - https://www.youtube.com/watch?v=v4VBijSTx2o
 - https://getbootstrap.com/docs/4.0/content/images/
+- https://getbootstrap.com/docs/4.0/content/images/
+- https://getbootstrap.com/docs/4.0/components/navbar/
+- https://www.youtube.com/watch?v=B2Hs9XrzBsU
+- https://www.w3schools.com/css/css_link.asp
+- https://www.geeksforgeeks.org/html/how-to-create-links-to-sections-within-the-same-page-in-html/
 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-
+I did not consult with any classmates or individuals when completing this assignment.
 
 
 7. Is there anything special we need to know in order to run your code?
-
+No, it should run smoothly as long as all the right files are included.

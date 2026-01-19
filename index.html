@@ -23,16 +23,16 @@ EMAIL: nxphan@uci.edu
   <body>
   <div class="nav-container">
     <div class="row">
-      <div class="col-sm-2" style="border:1px solid black;">
-        <img src="images/logo.png" alt="Nina Xuan Phan's logo" class="logo1" width="107" height="47">
+      <div class="col-sm-2">
+        <img src="images/logo.png" alt="Nina Xuan Phan's logo" class="logo1">
       </div>
-      <div class="col-sm" style="border:1px solid black;">
-        <nav class="navbar">
+      <div class="col-sm">
+        <nav class="navbar" style="margin-left:30px;">
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="index.html">Projects</a></li> <!-- add later -->
-            <li><a href="index.html">About</a></li> <!-- add later -->
-            <li><a href="index.html">Contact</a></li> <!-- add later -->
+            <li><a href="#section-one">About</a></li> <!-- add later -->
+            <li><a href="#section-two">Projects</a></li> <!-- add later -->
+            <li><a href="#section-three">Contact</a></li> <!-- add later -->
           </ul>
         </nav>
       </div>
@@ -41,8 +41,8 @@ EMAIL: nxphan@uci.edu
 <main>
   <div class="container">
     <div class="row justify-content-center">
-        <div class="col-sm-8" style="border:1px solid black; background-color: rgba(255, 255, 255, 0.627);">
-          <h1>
+        <div class="col-sm-8" style="background-color: rgba(255, 255, 255, 0.627); margin-top:20px;">
+          <h1 id="section-one">
             Hello!
           </h1>
           <h2>
@@ -68,33 +68,34 @@ EMAIL: nxphan@uci.edu
           </ul>
           </div>
         </div>
-        <div class="col-sm-4" style="border:1px solid black;">
+        <div class="col-sm-4" style="margin-top:20px;">
           <img src="images/milo&me.jpg"
           alt="Image of Nina Phan and her cousin's dog named Milo."
-          style="width:100%; height:100%; border-radius:10px;">
+          style="width:100%; border-radius:10px;">
         </div>
     </div>
   </div>
-  <h1 style="text-align:center; margin-top:20px;">
+  <h1 style="text-align:center; margin-top:20px;" id="section-two">
     Projects
   </h1>
-  <img class="img-center" src="images/arrow.png" alt="Arrow to next part." width="30" style="margin-bottom: 20px;">
+  <img class="img-center" src="images/arrow.png" alt="Arrow to next section." width="30" style="margin-bottom: 20px;">
   <div class="container">
     <img src="images/titleproj.png" alt="Image of Fashion Site project title." width="200">
     <h2 style="font-size:16px;">
       Nov 2025 - Dec 2025
     </h2>
       <div class="row justify-content-center">
-        <div class="col-sm-8" style="border:1px solid black; background-color:black;">
+        <div class="col-sm-8 rounded" style="border:1px solid black; background-color:black;">
           <img src="images/imgproj.png" alt="Image of Fashion Site Project." class="img-fluid">
         </div>
-        <div class="col-sm-4" style="border:1px solid black; background-color:black; color:white;">
+        <div class="col-sm-4 rounded" style="border:1px solid black; background-color:black; color:white;">
           <p style="margin-top:10px;">
             An imagined fashion site for trendy young girls and women. Initially inspired by a brand collaboration with a friend, the brand NXP aims to show a fun and whimsy approach to catching the attention of young customers.
           </p>
           <p>
             The site presents bold visuals and a maximalist aesthetic for the fashion forward individual.
           </p>
+          <a href="#"><img src="images/arrowproj.png" alt="Arrow to project in depth." width=200 style="margin-bottom:10px;"></a>
         </div>
       </div>
     </div>
@@ -104,27 +105,46 @@ EMAIL: nxphan@uci.edu
       N/A - N/A
     </h2>
       <div class="row justify-content-center">
-        <div class="col-sm-8" style="border:1px solid black; background-color:black;">
+        <div class="col-sm-8 rounded" style="border:1px solid black; background-color:black;">
           <img src="images/imgproj2.png" alt="Generic Image of Project." class="img-fluid">
         </div>
-        <div class="col-sm-4" style="border:1px solid black; background-color:black; color:white;">
+        <div class="col-sm-4 rounded" style="border:1px solid black; background-color:black; color:white;">
           <p style="margin-top:10px;">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
           </p>
           <p>
             Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+          </p>
+          <a href="#"><img src="images/arrowproj.png" alt="Arrow to project in depth." width=200 style="margin-bottom:10px;"></a>
         </div>
       </div>
     </div>
+  <h1 style="text-align:center; margin-top:20px;" id="section-three">
+    Connect with me!
+  </h1>
+  <img class="img-center" src="images/arrow.png" alt="Arrow to next section." width="30" style="margin-bottom: 20px;">
+  <div class="container">
+    <ul class=navbar>
+      <li class="nav-item">
+        <a class="nav-link active" href="https://github.com/nxphan-uci" target="blank"><img src="images/Github.png" alt="Github icon" width="50"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="https://www.linkedin.com/in/nina-phan-5127912a0/" target="blank"><img src="images/Linkedin.png" alt="Linekdin icon" width="50"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="mailto:nina09phan@gmail.com" target="blank"><img src="images/mail.png" alt="Email icon" width="50"></a>
+      </li>
+    </ul>
+  </div>
 </main>
    <footer>
     <img src="images/logo.png" alt="Nina Xuan Phan's logo" class="logo2" width="107" height="47">
+    <p style="text-align:right; margin-right:20px;">
+      <a href="http://validator.w3.org/check?uri=referer" style="color:black; text-decoration:none;">
+        W3C validator
+      </a>
+    </p>
    </footer>
-  <p>
-    <a href="http://validator.w3.org/check?uri=referer">
-       W3C validator
-    </a>
-  </p>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
