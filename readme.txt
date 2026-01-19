@@ -66,4 +66,5 @@ I did not consult with any classmates or individuals when completing this assign
 
 
 7. Is there anything special we need to know in order to run your code?
-No, it should run smoothly as long as all the right files are included.
+I did not flesh out a page for my specific projects so clicking the arrow to "view project" should simply take you to the home section.
+The W3C validator link was kept on my page, and should appear on the very bottom right if needed for access.
