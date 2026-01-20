@@ -48,7 +48,7 @@ I'm further warned that "Alt text is not empty and image may be decorative", but
 I purposefully used contrasting colors such as black and white to make focus and readability easier, so I'm unsure how my text/images may be "poor contrast".
 
 4. How long, in hours, did it take you to complete this assignment?
-About 10-12 hours.
+About 15-18 hours.
 
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
@@ -66,10 +66,13 @@ About 10-12 hours.
 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-I did not consult with any classmates or individuals when completing this assignment.
+I consulted the Reader Brandon Tran on zoom during Office Hours.
+I had noticed that while my index.html loads images and css just fine on my macbook, these details did not show up on my dell laptop and iphone 11.
+I have tested my index.html on other macbooks which see the images and css just fine so it is likely a "compatibility issue". (said by Reader)
 
 
 7. Is there anything special we need to know in order to run your code?
-Make sure every image file is downloaded.
+All images load fine on macbooks that I have tried from index.html, but for other devices such as iphone 11 or a dell laptop, the images don't load.
+I also note that the css styling isn't applied to the index.html on devices other than macbooks.
 I did not flesh out a page for my specific projects so clicking the arrow to "view project" or "See More Projects" should simply take you to the home section.
 The W3C validator link was kept on my page, and should appear on the very bottom right if needed for access.
